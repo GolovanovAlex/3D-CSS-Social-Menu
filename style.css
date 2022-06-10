@@ -46,4 +46,26 @@ a {
   filter: brightness(0.7);
   transform-origin: right;
   transform: skewY(45deg);
+  transition: 0.5s;
+}
+.social-menu__item:hover::before {
+  background-color: var(--clr);
+  filter: brightness(0.7);
+}
+.social-menu__item::after {
+  content: '';
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #3e3f46;
+  filter: brightness(0.9);
+  transform-origin: bottom;
+  transform: skewx(45deg);
+  transition: 0.5s;
+}
+.social-menu__item:hover::after {
+  background-color: var(--clr);
+  filter: brightness(0.9);
 }
