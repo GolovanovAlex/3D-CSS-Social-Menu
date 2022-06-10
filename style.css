@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #434750;
+}
+.social-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.social-menu__list {
+  position: relative;
+  transform: skewY(-15deg);
+  list-style: none;
+}
+.social-menu__item {
+  position: relative;
+  width: 120px;
+  background-color: #3e3f46;
+  padding: 15px;
+  transition: 0.5s;
+}
+.social-menu__item:hover {
+  transform: translateX(-50px);
+}
