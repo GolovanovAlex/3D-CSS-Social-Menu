@@ -13,7 +13,7 @@
 
 Создано на основе видео с Youtube канала [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers).   
 Для обучения и отработки работы c CSS.
-
+3D меню созданное на CSS с анимацией при выборе.
 ---
 
 ## Contacts
